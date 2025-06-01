@@ -62,7 +62,7 @@ const MapView = ({ properties }) => {
               {selectedProperty.location.address}
             </p>
             <p className="text-sm text-gray-800 font-medium">
-              ₹{selectedProperty.rates?.monthly || 'N/A'} / month
+              ${selectedProperty.rates?.monthly || 'N/A'} / month
             </p>
             <a
               href={`/properties/${selectedProperty._id}`}
